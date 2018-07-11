@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{70827fc1-192f-4bab-a47f-fd0387a943e4}</ProjectGuid>
+    <ProjectGuid>{70827FC1-192F-4BAB-A47F-FD0387A943E4}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppCenterSample</RootNamespace>
@@ -214,10 +214,6 @@
     <ProjectReference Include="..\..\node_modules\react-native-camera\windows\RNCamera\RNCamera.csproj">
       <Project>{F11038F0-88E5-11E7-BA7C-E36C7490591A}</Project>
       <Name>RNCamera</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\node_modules\react-native-windows\ReactWindows\ReactNative.Net46\ReactNative.Net46.csproj">
-      <Project>{22CBFF9C-FE36-43E8-A246-266C7635E662}</Project>
-      <Name>ReactNative.Net46</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\node_modules\react-native-windows\ReactWindows\ReactNative\ReactNative.csproj">
       <Project>{c7673ad5-e3aa-468c-a5fd-fa38154e205c}</Project>
